@@ -133,10 +133,6 @@ on boot
     chown system system /sys/class/drm/card0-DSI-1/panel_info
     chmod 0444 /sys/class/drm/card0-DSI-1/panel_info
 
-# Health
-    chmod 0660 /sys/class/power_supply/battery/input_suspend
-    chown system system /sys/class/power_supply/battery/input_suspend
-
     write /dev/cpuset/audio-app/cpus 1-2
     # Add a cpuset for the camera daemon
     # We want all cores for camera
