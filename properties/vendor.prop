@@ -209,7 +209,7 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 vendor.gatekeeper.disable_spu=true
 
 # HWUI
-ro.hwui.render_ahead=20
+ro.hwui.render_ahead=23
 
 # Surface Flinger
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
