@@ -165,6 +165,9 @@ persist.vendor.btstack.enable.lpa=true
 vendor.qcom.bluetooth.soc=cherokee
 ro.vendor.fm.use_audio_session=true
 
+# Blur
+ro.launcher.blur.appLaunch=0
+
 # Camera
 camera.disable_zsl_mode=true
 persist.vendor.camera.logInfoMask=false
