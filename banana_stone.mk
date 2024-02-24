@@ -28,9 +28,6 @@ BANANA_MAINTAINER := Thereache
 # Charging Animation
 TARGET_USE_PIXEL_CHARGER := true
 
-# Use Prebuilt Kernel
-PREBUILT_KERNEL := true
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := banana_stone
 PRODUCT_DEVICE := stone
