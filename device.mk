@@ -34,6 +34,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
+
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
@@ -50,6 +51,10 @@ ART_BUILD_HOST_DEBUG := false
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
+
+# ART lowmem config
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.art_lowmem=true
 
 # Audio
 PRODUCT_PACKAGES += \
