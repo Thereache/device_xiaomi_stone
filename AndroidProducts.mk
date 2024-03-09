@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2023 The bananaOS Project
+# Copyright (C) 2023 The genesisOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_stone.mk
+    $(LOCAL_DIR)/genesis_stone.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_stone-user \
-    banana_stone-userdebug \
-    banana_stone-eng
+    genesis_stone-user \
+    genesis_stone-userdebug \
+    genesis_stone-eng
